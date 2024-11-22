@@ -1,0 +1,40 @@
+{
+  "name": "@seobryn/simple-signals",
+  "version": "0.1.0",
+  "description": "Signals for javascript made simple",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --coverage",
+    "prepublishOnly": "pnpm build"
+  },
+  "keywords": [
+    "signals",
+    "js-signals",
+    "ts-signals"
+  ],
+  "author": "Seobryn <ing.jose.joya@gmail.com>",
+  "license": "AGPL-3.0-only",
+  "files": [
+    "dist",
+    "package.json",
+    "LICENSE",
+    "README.md"
+  ],
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "@types/jest": "^29.5.14",
+    "eslint": "^9.15.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.12.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.3.3",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.15.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
